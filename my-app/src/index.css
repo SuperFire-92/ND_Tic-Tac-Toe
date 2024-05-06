@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.pig {
+  font-style: italic;
+}
+
+.App
+{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.Cell
+{
+  background-color: white;
+  border: 1px solid gray;
+  float: left;
+  height: 50px;
+  width: 50px;
+  padding-left: -1px;
+  padding-top: -1px;
+}
+
+.Cell:hover
+{
+  background-color: aliceblue;
+}
+
+.Row
+{
+  box-sizing: border-box;
+}
+
+.Board
+{
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+body
+{
+  margin-left: 30%;
+}
+
+.ResetButton
+{
+  align-self: center;
+  height: 40px;
+  width: 120px;
+}
+
+#winState
+{
+  font-size: 20px;
+  align-self: center;
+}
+
+.ButtonDisplay
+{
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
